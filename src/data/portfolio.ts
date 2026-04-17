@@ -9,7 +9,7 @@ export const PORTFOLIO = {
   email: "moh.ibrahimhussaini@gmail.com",
   phone: "+93 771 585 267",
   linkedin: "https://linkedin.com/in/mohammad-ibrahim-hussaini",
-  cvPath: "/Mohammad_Ibrahim_Hussaini_CV.pdf",
+  cvPath: "/Portifolio/Mohammad_Ibrahim_Hussaini_CV.pdf",
 };
 
 export const NAV_LINKS = [

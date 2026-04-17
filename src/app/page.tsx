@@ -228,12 +228,18 @@ export default function Home() {
         </div>
         <div className="relative max-w-6xl mx-auto px-6 py-20 text-center">
           <div className="mb-6">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium mb-8">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500" />
-              </span>
-              Available for opportunities
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500" />
+                </span>
+                Available for opportunities
+              </div>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium">
+                <MapPinIcon />
+                Open to relocation
+              </div>
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
